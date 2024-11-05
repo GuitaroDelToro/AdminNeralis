@@ -1,0 +1,251 @@
+@charset "utf-8";
+
+#AdminNeralis {
+    
+	color: #53A433;
+    font-size: 41px;
+    width: 557px;
+    text-shadow: 3px 2px #A222B1;
+    text-decoration: underline;
+    transform: translateX(50px);
+    
+}
+#bienvenue {
+    color: #3FDDE8;
+    
+    background-image: url(block.png);
+    background-repeat: no-repeat;
+    width: 338px;
+    height: 184px;
+    line-height: 184px;
+    text-indent: 40px;
+    font-size: 29px;
+    transform: translateX(600px)translateY(130px)
+}
+#bienvenue_lien {
+    color: #32788B;
+    text-shadow: 2px 1px #3EB1EB;
+    width: 0px;
+    font-size: 54px;
+}
+#image_LEFT {
+    transform: translateY(1050px);
+    font-size: 118px;
+}
+#image_RIGHT {
+	transform: translateY(1050px)translateX(1600px)
+}
+#body {
+    margin-top: -1044px;
+    font-family: Impact;
+
+
+}
+#bypass {
+    color: #598528;
+    
+    transform: translateX(700px);
+    width: 477px;
+}
+
+#body #loginForm {
+    transform: translateX(680px);
+    width: 422px;
+    background-image: url(V1/Assets/Calque%203%20copie.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-bottom: -48px;
+    padding-top: 62px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-size: auto 230px;
+    margin-left: -38px;
+    margin-top: 6px;
+    margin-right: 13px;
+    padding-right: 17px;
+    background-position: 9% -31%;
+    text-align: center;
+}
+#body #loginForm #identifiant {
+    color: #FFFFFF;
+    
+    width: 80px;
+    margin-right: 20px;
+}
+#body #loginForm #mdp {
+    color: #FFFFFF;
+    
+    width: 0px;
+    margin-right: 3px;
+	
+}
+#refuse {
+    color: #F32225;
+    background-image: url(V1/Assets/Calque%203%20copie.png);
+    background-repeat: no-repeat;
+    width: 385px;
+    height: 212px;
+    font-size: 48px;
+    text-align: center;
+    transform: translateX(600px)translateY(80px);
+    text-shadow: 2px 1px #BA25D9;
+    margin-top: 2px;
+    padding-top: 33px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-decoration: line-through;
+    line-height: 130px;
+}
+#retour_refuse {
+    
+    color: #548C27;
+    width: 113px;
+    transform: translateX(730px)translateY(40px);
+    text-decoration: underline;
+}
+#menu-principal {
+    color: #4A8117;
+    
+    font-size: 27px;
+    transform: translateX(100px)translateY(100px);
+    text-decoration: underline;
+    text-shadow: 2px 2px #641781;
+}
+#prerogatives {
+    color: #3D7E1C;
+    
+    width: 289px;
+    transform: translateX(75px)translateY(100px);
+    text-shadow: 2px 2px #7C1A8D;
+}
+#notes_personnelles {
+    color: #537519;
+    
+    transform: translateX(100px)translateY(100px);
+    text-decoration: underline;
+    text-shadow: 2px 2px #9726B1;
+}
+#link-prerogatives {
+    color: #4A8117;
+}
+#journal {
+    color: #4A8117;
+    
+    text-shadow: 2px 2px #681781;
+    font-size: 28px;
+    width: 1185px;
+    text-align: center;
+    transform: translateX(190px)translateY(100px);
+    text-decoration: underline;
+}
+#journal1 {
+    width: 442px;
+    color: #4A8117;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 14px;
+    transform: translateY(150px)translateX(100px);
+    text-shadow: 2px 2px #681781;
+    font-weight: bold;
+    font-variant: normal;
+    background-color: #000000;
+    border: thick dotted #4A8117;
+}
+#journal2 {
+	width: 442px;
+    color: #4A8117;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 14px;
+    transform: translateY(-500px)translateX(1000px);
+    text-shadow: 2px 2px #681781;
+    font-weight: bold;
+    font-variant: normal;
+    background-color: #000000;
+    border: thick dotted #4A8117;
+}
+
+    
+
+#retour_notes {
+    color: #4A8117;
+    
+    text-shadow: 2px 2px #681781;
+    transform: translateX(750px) translateY(-350px);
+    text-decoration: underline;
+}
+#alarmeON {
+	transform: scale(0.5)translateY(-800px)
+}
+#tourellesON {
+	transform: scale(0.25)translateY(-800px)
+}
+#alarmeON_text {
+    color: #4A8117;
+    
+    text-shadow: 2px 2px #681781;
+	transform: translateX(80px)translateY(-450px)
+}
+#tourrellesON_text {
+    color: #4A8117;
+    
+    text-shadow: 2px 2px #681781;
+	transform: translateX(700px)translateY(-471px)
+}
+#retoursystemON {
+    color: #4A8117;
+    
+    text-shadow: 2px 2px #681781;
+    transform: translateX(520px) translateY(-300px);
+    text-decoration: underline;
+}
+#desactivation {
+    color: #4A8117;
+    
+    text-decoration: underline;
+    text-shadow: 2px 2px #681781;
+	transform: translateX(370px)translateY(-420px)
+}
+#attention {
+	transform: scale(0.5)translateX(-1950px)translateY(-700px)
+}
+#liste_detenues {
+    color: #4A8117;
+    text-decoration: underline;
+    text-shadow: 2px 2px #641781;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	transform: translateX(100px)translateY(100px)
+}
+.listedetenusheader {
+    color: #4A8117;
+    
+    text-decoration: underline;
+    text-shadow: 2px 2px #641781;
+	transform: translateX(120px)translateY(-230px)
+}
+#Retour_listedetenus {
+    color: #4A8117;
+    
+    text-decoration: underline;
+    text-shadow: 2px 2px #641781;
+	transform: translateX(300px)translateY(100px)
+}
+#Lira {
+}
+#detenusALL {
+    color: #4A8117;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    line-height: 39px;
+    width: 925px;
+    background-color: #000000;
+    border-style: dotted;
+	transform: translateX(100px)
+}
+#retourdetenusall {
+    color: #4A8117;
+    
+    text-decoration: underline;
+    text-shadow: 2px 2px #641781;
+	transform: translateX(100px)
+}
+#image_LEFTrefused {
+	transform: translateX(-70px)translateY(1050px)
+}

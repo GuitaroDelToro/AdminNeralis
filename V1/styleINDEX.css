@@ -1,0 +1,39 @@
+#body {
+}
+#navigation a h2 {
+	color: #FFFFFF;
+	font-family: Horizon;
+	text-align: center;
+	font-size: 60px;
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: center 37px;
+	margin-top: 4px;
+	margin-bottom: 88px;
+	padding-top: 91px;
+	line-height: 100px;
+	z-index: 0;
+	background-image: url(../Starfinder/Calque%203%20copie%203.png);
+	padding-bottom: 115px;
+}
+
+#body {
+	background-image: url(../Starfinder/fond.png);
+}
+#body header h1 {
+	color: #446210;
+	font-family: Horizon;
+	text-align: center;
+	font-weight: bold;
+	font-size: 92px;
+	font-variant: normal;
+	text-shadow: 1px 1px #B64DC5;
+	height: 428px;
+}
+#imgbienvenue {
+	transform: translateX(500px)translateY(-240px);
+	display: none;
+	
+			  
+	
+}

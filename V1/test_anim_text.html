@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Style Text Animation</title>
+    <style>
+        /* Basic styling */
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: black;
+            font-family: monospace;
+            color: lime;
+        }
+
+        /* Canvas styling */
+        #matrixCanvas {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        /* Retour button styling */
+        #retourButton {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background-color: #ff0000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        #retourButton:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Matrix Canvas -->
+<canvas id="matrixCanvas"></canvas>
+
+<!-- Retour Button linking to login.html -->
+<a href="login.html" id="retourButton">Retour</a>
+
+<script>
+    const canvas = document.getElementById("matrixCanvas");
+    const context = canvas.getContext("2d");
+
+    // Set canvas dimensions to full screen
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    // Matrix effect characters and special words
+    const matrixChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()";
+    const specialWords = ["ID:NERALIS", "PSWD:SILAREN"];
+    const fontSize = 16;
+    const columns = canvas.width / fontSize;
+
+    // Array for the positions of each character column
+    const drops = Array(Math.floor(columns)).fill(1);
+
+    // Function to create the Matrix rain effect
+    function drawMatrix() {
+        // Clear the canvas with a translucent black for trailing effect
+        context.fillStyle = "rgba(0, 0, 0, 0.05)";
+        context.fillRect(0, 0, canvas.width, canvas.height);
+
+        // Set default text style for green characters
+        context.font = fontSize + "px monospace";
+
+        // Loop through drops
+        for (let i = 0; i < drops.length; i++) {
+            // Randomly decide to show a special word in bold red
+            if (Math.random() < 0.001 && i < drops.length - 8) {
+                // Select a special word and display it in bold red
+                const word = specialWords[Math.floor(Math.random() * specialWords.length)];
+                context.fillStyle = "red";
+                context.font = `bold ${fontSize}px monospace`;
+                context.fillText(word, i * fontSize, drops[i] * fontSize);
+
+                // Skip the next few drops to avoid overlap of characters
+                drops[i] += word.length;
+            } else {
+                // Draw a green character from matrixChars
+                const char = matrixChars[Math.floor(Math.random() * matrixChars.length)];
+                context.fillStyle = "#0F0"; // Green color
+                context.font = `${fontSize}px monospace`; // Reset to normal font
+                context.fillText(char, i * fontSize, drops[i] * fontSize);
+            }
+
+            // Randomly reset drop position for a realistic effect
+            if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+                drops[i] = 0;
+            }
+            
+            drops[i]++;
+        }
+    }
+
+    // Set interval to draw matrix effect at a regular interval
+    setInterval(drawMatrix, 50);
+</script>
+
+</body>
+</html>

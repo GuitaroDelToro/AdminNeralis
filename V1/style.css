@@ -1,0 +1,320 @@
+#navigation a h2 {
+	color: #FFFFFF;
+	font-family: Horizon;
+	text-align: center;
+	font-size: 60px;
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: center 37px;
+	margin-top: 4px;
+	margin-bottom: 88px;
+	padding-top: 91px;
+	line-height: 100px;
+	z-index: 0;
+	background-image: url(../Starfinder/Calque%203%20copie%203.png);
+	padding-bottom: 115px;
+}
+
+
+#body {
+	background-image: url(../Starfinder/fond.png);
+	height: auto;
+	}
+#body header #Neralish1 {
+	font-size: 47px;
+	text-align: left;
+	margin-right: 568px;
+}
+
+
+
+
+
+
+#body #text {
+	margin-right: 27px;
+}
+
+	
+	
+	
+
+
+#body header h1 {
+	color: #446210;
+	font-family: Horizon;
+	text-align: center;
+	font-weight: bold;
+	font-size: 92px;
+	font-variant: normal;
+	text-shadow: 1px 1px #B64DC5;
+	height: 428px;
+}
+#imgbienvenue {
+	transform: translateX(500px)translateY(-240px);
+	display: none;
+	
+			  
+	}
+#Neralish1 {
+	transform: translateX(50px)
+}
+
+
+#identifiant {
+	transform: translateX(300px)translateY(-7px);
+	color: #3A7C23;
+	font-family: Horizon;
+	text-decoration: underline;
+}
+#mdp {
+	transform: translateX(340px)translateY(-58px);
+	color: #4E7823;
+	font-family: Horizon;
+	text-decoration: underline;
+}
+
+#mdpTEXT {
+	transform:translateY(0px)
+}
+#indentifTEXT {
+	transform: translateY(50px);
+	padding-bottom: 170px;
+}
+#identificationTEXT2 {
+	transform: translateX(300px)translateY(-10px)
+}
+#bypass {
+}
+#body #bypass {
+	color: #8AB14E;
+	font-family: Horizon;
+	font-size: 20px;
+	text-align: left;
+	transform: translateX(580px)translateY(-30px);
+	font-style: italic;
+	font-variant: normal;
+	text-decoration: underline;
+	text-shadow: 2px 0px;
+	border-color: #BB40C7;
+	line-height: -100px;
+}
+#body #valider #button {
+	font-family: Horizon;
+	color: #284A86;
+}
+
+#valider {
+	color: #FFFFFF;
+	font-family: Horizon;
+	font-size: 19px;
+	background-image: url(../Starfinder/Calque%203%20copie.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-origin: padding-box;
+	background-clip: padding-box;
+	background-position: 0 0%;
+	transform: translateX(1150px)translateY(-425px);
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	margin-bottom: 65px;
+	padding-bottom: 171px;
+	background-size: 158px auto;
+	text-indent: 12px;
+	line-height: 82px;
+}
+#hacking {
+}
+#body #hacking {
+	color: #528227;
+	font-family: Horizon;
+	margin-right: 119px;
+	padding-right: 577px;
+	padding-left: 13px;
+	font-size: 20px;
+	text-shadow: 2px 0px #B53FCF;
+}
+#RetourHack {
+	color: #539832;
+	font-family: Horizon;
+	transform: translateX(1100px)translateY(-40px);
+	text-decoration: underline;
+}
+#button {
+	transform: translateX(15px)
+}#RESTRICTED {
+	color: #EC1B1E;
+	text-decoration: underline;
+	margin-bottom: 144px;
+	padding-bottom: 170px;
+	line-height: 191px;
+	font-size: 37px;
+	text-indent: 3px;
+	font-family: Horizon;
+	height: 0px;
+	width: 609px;
+	margin-top: 204px;
+	padding-top: 185px;
+	transform: translateX(550px)translateY(-500px)
+}
+#retourrestri {
+	color: #338B22;
+	text-decoration: underline;
+	line-height: 0;
+	text-indent: 0;
+	transform: translateX(-500px)translateY(-00px);
+	font-family: Horizon;
+	margin-right: 49px;
+	height: 63px;
+}
+nav h3 #retourrestri2 {
+	color: #22871A;
+	font-family: Horizon;
+	line-height: 0;
+	text-indent: 0;
+	transform: translateX(50px)translateY(-500px);
+}
+
+#retourrestri2 {
+	transform: translateX(770px)translateY(-570px);
+	color: #3F741A;
+	font-family: Horizon;
+	text-decoration: underline;
+}
+#leftredimg {
+	transform: translateY(-800px);
+	margin-top: 0px;
+	padding-bottom: 823px;
+	padding-top: 0px;
+}
+#blocalarme {
+	
+	transform: translateY(-2500px);
+}
+
+
+#rightred {
+	transform: translateX(1800px)translateY(-1180px);
+	padding-top: 680px;
+	padding-bottom: 447px;
+}
+#pswd {
+	transform: translateX(500px)translateY(-1500px);
+	font-family: Horizon;
+	margin-top: -359px;
+	margin-right: -82px;
+	margin-left: 192px;
+}
+#validate {
+	font-family: Horizon;
+	color: #263A77;
+	transform: translateX(120px)
+}
+#loginForm {
+	transform: translateX(650px)translateY(-2780px)}
+#bypass {
+	transform: translateY(800px);
+	margin-bottom: 70px;
+}
+#body #loginForm {
+	background-image: url(../Starfinder/Calque%203%20copie%203.png);
+	background-repeat: no-repeat;
+	padding-bottom: 124px;
+	height: 26px;
+	width: 612px;
+	margin-top: 204px;
+	margin-left: -106px;
+	padding-top: 61px;
+	padding-right: 0px;
+	padding-left: 111px;
+}
+#navigation a #bypass {
+}
+#body h4 ol {
+	color: #315C1A;
+	font-family: Horizon;
+	height: auto;
+	transform: translateY(-2400px)translateX(100px);
+	text-align: justify;
+}
+h4 ol a {
+	color: #3B671F;
+}
+#body p {
+	color: #366618;
+	font-family: Horizon;
+	margin-right: 1276px;
+	margin-bottom: 98px;
+	margin-top: 101px;
+}
+#body h4 ol {
+	transform: translateX(50px)translateY()
+}
+#body h4 notesretour {
+	transform: translateX(650px)translateY(-1400px);
+	color: #ED2124;
+}
+
+
+#prerogative {
+	transform: translateX(100px)translateY(-2400px);
+	margin-right: 111px;
+	margin-left: -43px;
+	margin-bottom: 94px;
+	padding-bottom: 109px;
+	padding-right: 9px;
+	padding-left: 25px;
+	width: 323px;
+	color: #537723;
+	font-family: Horizon;
+	font-size: 21px;
+	line-height: 33px;
+	margin-top: 59px;
+	background-color: #000000;
+	border: medium dashed #1E315E;
+}
+#alarmeimg {
+}
+#body #alarmeimg {
+	margin-bottom: -596px;
+	margin-left: 89px;
+	height: auto;
+	transform: scaleX(0.5)scaleY(0.5)
+}
+#body #turretimg {
+	transform: scale(0.35)translateY(2200px);
+	
+	
+}
+
+#turretimg {
+	transform: scaleX(0.5) translateY(500px);
+	
+}
+#alarmeactivée {
+	transform: translateX(230px)translateY(-2250px)
+
+
+}
+#tourellesactivées {
+	transform: translateX(850px)translateY(-2375px)
+}
+#desactivation {
+	transform: translateX(545px)translateY(-2400px)
+}
+
+
+#systemretour {
+	color: #1B570C;
+	font-family: Horizon;
+	transform: translateY(-500px) translateX(-500px);
+	vertical-align: 2096px;
+	
+}
+#imgalarm {
+	transform: scale(0.5) translateY(-4300px)
+}
+#tourrellesimg {
+	transform: scale(0.2) translateY(-9700px)
+}

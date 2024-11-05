@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>bienvenue</title>
+<link href="background.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+    background-image: url(background.png);
+	
+}
+</style>
+</head>
+
+<body id="body">
+<img src="V1/Assets/leftimg.png" alt="" width="35" height="1043" id="image_LEFT"/>
+<img src="V1/Assets/rightimg.png" alt="" width="72" height="1073" id="image_RIGHT"/>
+<header id="AdminNeralis">Administration pénitentiaire de Néralis</header>
+<form id="loginForm" onsubmit="return validateForm()">
+  <label for="username" id="identifiant">Identifiant :</label>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password" id="mdp">Mot de passe :</label>
+      <input type="password" id="password" name="password" required><br><br>
+        
+        <button type="submit" id="validate">Valider</button>
+    </form>
+
+<script>
+        function validateForm() {
+            // Récupère les valeurs des champs
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+
+            // Vérifie si les informations d'identification sont correctes
+            if (username === "NERALIS" && password === "SILAREN") {
+                window.location.href = "Acceuil.html";
+                return false;
+            } else {
+                window.location.href = "REFUSE.html";
+                return false;
+            }
+        }
+    </script>
+
+	<nav id="navigation"><a href="hacking.html" title="Go to hacking">
+    <h3 id="bypass">System bypass..............................................................................</h3>
+	</a>
+
+
+#
+	<html lang="en">
+<head>
+    <style>
+        #container {
+            display: none;
+            background-color: #f0f8ff;
+            text-align: center;
+        }
+    </style>
+</head>
+<h5>
+<div id="container">
+    <h2>Correct Password</h2>
+    <h3>Welcome to TutorialsPoint..</h3>
+</div>
+<script>
+    function fun() {
+        let inputPswd = document.getElementById("validate")
+                                .value;
+        let correctPswd = "SILAREN";
+        if (inputPswd === correctPswd) {
+            document.getElementById("container")
+                .style.display = "block";
+            document.getElementById("pswd")
+                .style.display = "none";
+        } else {
+            alert("Accès interdit!");
+        }
+    }
+</script>
+</h5>
+</body>
+	
+</html>
+
+#
